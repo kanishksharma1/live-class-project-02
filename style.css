@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Rose", cursive;
+}
+
+/* ------------------------------ */
+/* ---------- NAVBAR ------------ */
+/* ------------------------------ */
+
+body{
+  background-image: url(./assets/pexels-maxyne-barcel-10402282\ 1.png);
+  background-position: center;
+  background-size: cover;
+  
+}
+.navbar{
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  margin-top: 5px;
+}
+
+.list{
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+}
+
+.list-item{
+  margin-right: 100px;
+  color: #E8BD0D;
+}
+
+.list-item:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.logo{
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.button-small{
+  margin-top: 30px;
+  margin-left: 40px;
+  border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+  -webkit-border-radius: 1;
+  -moz-border-radius: 1;
+  border-radius: 1px;
+  color: #ffffff;
+  font-size: 26px;
+  background: #EB4D4B;
+  padding: 8px 29px 8px 28px;
+  text-decoration: none;
+}
+
+.button-small:hover{
+  cursor: pointer;
+  background-color: crimson;
+}
+
+
+
+/* ------------------------------ */
+/* ---------- HERO ------------ */
+/* ------------------------------ */
+
+
+.bottom{
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+}
+
+.bottom-logo{
+  width: 70%;
+  height: 70%;
+}
+
+.hero-heading{
+  font-size: 100px;
+  margin-bottom: 0px;
+  margin-left: 15%;
+  color:#E8BD0D;
+  margin-top: 40px;
+  width: 1024px;
+  letter-spacing: 2px;
+  line-height: 90%;
+}
+
+.button-large{
+  position: absolute;
+  left: 40%;
+  bottom: 28%;
+  -webkit-border-radius: 1;
+  -moz-border-radius: 1;
+  border-radius: 1px;
+  color: #ffffff;
+  font-size: 26px;
+  background: #EB4D4B;
+  padding: 11px 33px 10px 30px;
+  text-decoration: none;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+}
+
+.button-large:hover{
+  background-color:crimson;
+  cursor: pointer;
+}
+
+
